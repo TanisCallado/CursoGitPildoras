@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<title>Carta a los Reyes Magos</title>
+	<script src="Apuntes.js"></script>
+	
+</head>
+<body>
+<form name="formulario">
+	<fieldset><legend><h2>CARTA A LOS REYES MAGOS</h2></legend>
+		Nombre: <input type="text" name="nombre" /><span id="errorNombre"></span></br></br>
+		Fecha de nacimiento: <input type="date" name="fechaNac"/><span id="errorFecha"></span></br></br>
+		Dirección: <input type="text" name="direccion" /> <span id="errorDir"></span></br></br>
+		Teléfono: <input type="tel" name="telefono" placeholder="(+prefijo) teléfono" title="(+12)345567765" /><span id="errorTel"></span></br></br>  
+		Presupuesto: <input type="range" name="presupuesto" min="0" max="200"/></br></br>
+		Rey Mago Favorito: <select name="reyMago">
+			<option value="melchor">Melchor</option>
+			<option value="gaspar">Gaspar</option>
+			<option value="baltasar">Baltasar</option></select></br></br>
+
+			Regalos: <input type="text" name="regalo1" placeholder="Regalo1"/>
+			<input type="text" name="regalo2" placeholder="Regalo2" required/>
+			<input type="text" name="regalo3" placeholder="Regalo3"/>
+			<span id="errorRegalos"></span></br></br></br>
+
+			<input type="button" value="Generar Carta a los Reyes Magos" name="boton">
+	</fieldset></form>
+	</br></br>
+	<div id="ficha">
+		<div id="datos">
+			<span id="fichaNombre"></span></br></br>
+			<span id="fichaPrecio"></span></br></br>
+			<span id="fichaRey"></span></br></br>
+			<span id="fichaRegalo1"></span></br></br>
+			<span id="fichaRegalo2"></span></br></br>
+			<span id="fichaRegalo3"></span></br></br>
+		</div>
+		<div id="foto">
+			<img src="FotoMiaParaPerfil.jpg">
+		</div>
+	</div>
+
+</body>
+</html>
