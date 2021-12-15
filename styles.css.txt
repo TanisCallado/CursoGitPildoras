@@ -1,0 +1,31 @@
+body{
+font-family: Arial;
+margin: 50px;
+}
+fieldset{
+	width:600px;
+}
+form{
+	float:left;
+}
+form span{
+	color:#F00;
+}
+#ficha{
+	float: left;
+	margin-left: 30px;
+	padding: 2em;
+	height: 13em;
+	width: 30%;
+	padding: 20px;
+	border-radius: 20px 20px 20px 20px;
+}
+#datos {
+	float: left;
+}
+#foto {
+	float: right;
+	}
+#foto img {
+	width:100 px;
+}

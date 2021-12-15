@@ -1,0 +1,4 @@
+Primer documento para el curso de git
+
+
+aquí itra prueba

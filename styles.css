@@ -1,0 +1,61 @@
+.headsec {
+	font-size: 40px;
+	color:#009900;
+	font-weight: bold;
+	margin-left: 10px;
+}
+body {
+	margin: 10px auto;
+}
+footer {
+	width: 100%;
+	bottom: 0px;
+	background-color: #000;
+	color: #fff;
+	position:  absolute;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+.bodysec {
+	margin-left: 20px;
+}
+.subhead {
+	font-size: 17px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+form {
+	width:  50%;
+	font-family: Verdena, Geneva, sans-serif;
+	font-size: 1em;
+}
+input[type="text"], input[type="email"], textarea {
+	margin-bottom: .25em;
+	padding: 0.25em;
+	font-size: 1em;
+
+}
+legend {
+	font-weight: 700;
+}
+.menu {
+	position:  sticky;
+	background-color: #009900;
+	color: white;
+	margin-bottom: 10px;
+	overflow: scroll;
+
+}
+a {
+	float: left;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
